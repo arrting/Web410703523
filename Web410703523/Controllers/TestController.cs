@@ -24,7 +24,11 @@ namespace Web410703523.Controllers
         }
         public ActionResult HW3()
         {
+            ViewBag.name = "ting";
+            ViewData["weight"] = "0";
+            ViewData["water"] = "0";
             return View();
         }
+        
     }
 }
