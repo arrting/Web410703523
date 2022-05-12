@@ -30,7 +30,7 @@ namespace Web410703523.Controllers
             {
                 ViewBag.Passwordmessage = "請輸入密碼";
             }
-            if (name !=null && account!=null && password!=null)
+            if (name !=null && account!=null && password!=null && name != "" && account != "" && password != "")
             {
                 ViewBag.Message = "註冊成功";
             }
